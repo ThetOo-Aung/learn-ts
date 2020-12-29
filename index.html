@@ -4,7 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <script src="app.js" defer></script>
+  <script src="/dist/app.js" defer></script>
+  <script src="/dist/myAnalytics.js" defer></script>
+ 
 </head>
 <body>
   <h1> Useful Tips : Sourcemap in tsconfig.json is to bridge ts file to browser source folder so that dev can debug</h1>
@@ -13,5 +15,9 @@
   <input type="number" id="num2" placeholder="Number 2">
   <button type="button">ADD !</button>
   
+
+  
 </body>
 </html>
+
+<!-- noEmitOnError is like if you have some errors in your ts file it will not compile all of ts files to js files -->
